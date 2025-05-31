@@ -99,3 +99,70 @@ div.login a:hover{
         transform: translateX(0px);
     }
  }
+ @media (max-width: 991px) {
+  nav {
+    flex-direction: column;
+    padding: 10px;
+    text-align: center;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav li {
+    margin: 10px 0;
+  }
+
+  div.login {
+    margin-top: 10px;
+  }
+
+  div.description {
+    flex-direction: column;
+    align-items: center;
+    margin: 100px 20px;
+    text-align: center;
+  }
+
+  .desc .desc_head {
+    font-size: 35px;
+  }
+
+  .button1, .button2 {
+    margin: 10px 5px;
+    font-size: medium;
+    padding: 12px 20px;
+  }
+
+  .burger {
+    width: 300px;
+    height: auto;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .desc .desc_head {
+    font-size: 28px;
+  }
+
+  nav h1.nav_head {
+    font-size: 1.5rem;
+  }
+
+  li a {
+    padding: 10px;
+  }
+
+  .button1, .button2 {
+    padding: 10px 16px;
+    font-size: small;
+  }
+
+  .burger {
+    width: 220px;
+  }
+}
