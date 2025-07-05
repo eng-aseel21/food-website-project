@@ -1,4 +1,3 @@
- /* ====== Base Reset ====== */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -6,7 +5,6 @@
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-/* ====== Background & Body ====== */
 body {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("img/delicious-hamburger-with-ketchups-mustard_23-2148290624.jpg");
@@ -15,8 +13,6 @@ body {
   background-attachment: fixed;
   color: white;
 }
-
-/* ====== Navbar Custom Style ====== */
 .backdrop-blur {
   backdrop-filter: blur(8px);
 }
@@ -35,8 +31,6 @@ body {
   color: rgb(255, 174, 0) !important;
   border-radius: 20px;
 }
-
-/* ====== Button Styles Improved ====== */
 .btn.btn-warning {
   border-radius: 30px;
   padding: 12px 28px;
@@ -56,8 +50,6 @@ body {
   border-bottom-right-radius: 0px;
   transform: translateY(-3px);
 }
-
-/* ====== Description Section ====== */
 .description {
   margin: 150px 40px;
   font-size: large;
@@ -68,8 +60,6 @@ body {
   margin: 0;
   font-weight: 900;
 }
-
-/* تعديل أزرار الطلب والقائمة لتكون بألوان وتصميم مشابه لأزرار النافبار */
 .button1, .button2 {
   background-color: rgb(255, 190, 60);
   color: black;
@@ -88,8 +78,6 @@ body {
   background-color: rgb(255, 160, 0);
   color: white;
 }
-
-/* ====== Animation ====== */
 .animation {
   opacity: 0;
   transform: translateX(60px);
@@ -107,13 +95,11 @@ body {
 .burger.animation {
   animation-delay: 1.5s;
 }
-
-/* تعديل حجم صورة البرجر */
 .burger {
   width: 570px;
   height: auto;
   transition: width 0.3s ease;
-  min-width: 300px; /* الحد الأدنى للحجم */
+  min-width: 300px; 
 }
 
 @media (max-width: 991px) {
@@ -131,16 +117,12 @@ body {
     min-width: 250px;
   }
 }
-
-/* ====== Keyframes ====== */
 @keyframes head {
   to {
     opacity: 1;
     transform: translateX(0px);
   }
 }
-
-/* ====== Responsive Adjustments ====== */
 @media (max-width: 991px) {
   .description {
     margin: 100px 20px;
@@ -167,3 +149,4 @@ body {
     font-size: small;
   }
 }
+
